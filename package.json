@@ -1,10 +1,10 @@
 {
-  "name": "2-acme-rockets",
+  "name": "Galaxy-Rockets",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "build-tailwind": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
