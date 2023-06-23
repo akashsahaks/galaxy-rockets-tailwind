@@ -600,6 +600,10 @@ video {
   max-width: 28rem;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .scroll-mt-12 {
   scroll-margin-top: 3rem;
 }
@@ -1020,8 +1024,16 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+
   .md\:flex {
     display: flex;
+  }
+
+  .md\:hidden {
+    display: none;
   }
 }
 
